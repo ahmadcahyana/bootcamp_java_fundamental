@@ -64,6 +64,18 @@ public class SwitchCaseStatement {
                 System.out.println("Input tidak valid");
                 break;
         }
-
+        
+        // switch( switch_expression )
+        // {
+        //     case case_selector1: 
+        //         statement1;
+        //         break;
+        //     case case_selector2: 
+        //         statement2;
+        //         break; 
+        //     default: 
+        //         statement3;
+        //         break;
+        // } 
     }
 }
