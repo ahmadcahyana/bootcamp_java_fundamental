@@ -51,5 +51,25 @@ public class JavaArray {
             }
         }
 
+        int[][] bilangan = new int[2][10];
+        int[] bilanganGanjil = {
+            1, 3, 5, 7, 9, 11, 13, 15, 17, 19
+        };
+        int[] bilanganGenap = {
+            2, 4, 6, 8, 10, 12, 14, 16, 18, 20
+        };
+        bilangan = new int[][] {
+            bilanganGanjil,
+            bilanganGenap,
+        };
+        for (int i = 0; i < bilangan.length; i++) {
+            System.out.println("Array ke-" + i);
+            for (int j = 0; j < bilangan[i].length; j++) {
+                System.out.println(bilangan[i][j]);
+            }
+        }
+        
+
+
     }
 }
